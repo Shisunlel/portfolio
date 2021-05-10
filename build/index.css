@@ -254,6 +254,20 @@ main {
   grid: auto/1fr;
 }
 
+.mobile-reminder-container{
+  position: relative;
+}
+
+#mobile-reminder{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5ch;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .card {
   text-align: center;
   margin: 2em 0;
@@ -434,6 +448,10 @@ footer > :is(.heart, a) {
 
   .tools {
     margin-top: 5em;
+  }
+
+  #mobile-reminder{
+    display: none;
   }
 
   .card {
