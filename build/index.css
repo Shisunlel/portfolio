@@ -131,7 +131,8 @@ nav {
 }
 
 .toggler {
-  background: url(/public/img/hamburger.png);
+  /* background: url(/public/img/hamburger.png); */
+  background: url(/portfolio/public/img/hamburger.png);
   cursor: pointer;
   display: inline-block;
   width: 32px;
@@ -143,7 +144,8 @@ nav {
   will-change: transition, background;
 }
 .toggler.active {
-  background: url(/public/img/cross.png);
+  /* background: url(/public/img/cross.png); */
+  background: url(/portfolio/public/img/cross.png);
   scale: 1.1;
 }
 
